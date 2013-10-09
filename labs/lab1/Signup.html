@@ -1,0 +1,134 @@
+<html>
+<head>
+	<title>Sign up</title>
+	<style type="text/css">
+
+	body {
+		background: #edf0f5;
+	}
+	h1 {
+		color: #333;
+		font-size: 36px;
+	}
+	h2 {
+		color: #333;
+		font-size: 19px;
+	}
+	input {
+		font-size: 18px;
+		padding: 8px 10px;
+	}
+	input.email, input.password {
+		width: 433px;
+	}
+
+	.birthday {
+		font-size: 18px;
+		color: #333;
+	}
+	.birthday div {
+		margin: 10px 0;
+	}
+
+	select {
+		font-size: 13px;
+		min-width: 65px;
+		height: 30px;
+		padding: 5px;
+		border: 1px solid #bdc7d8;
+	}
+
+	.sex {
+		margin: 10px 0;
+		font-size: 18px;
+		color: #333;
+	}
+
+	button {
+		background: -webkit-linear-gradient(top, #79bc64, #578843);
+		-webkit-box-shadow: inset 0 1px 1px #a4e388;
+
+		min-width: 194px;
+		padding: 7px 20px;
+
+		border: 1px solid;
+		border-color: #3b6e22 #3b6e22 #2c5115;
+		border-radius: 5px;
+
+		color: #fff;
+		font-size: 19px;
+		text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+
+		cursor: pointer;
+	}
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+
+	</style>
+</head>
+<body>
+
+<h1>Sign Up</h1>
+<h2>It's free and always will be.</h2>
+<form name="register" method="post" action="/register">
+	<div>
+		<input type="text" name="firstname" placeholder="First Name" />
+		<input type="text" name="lastname" placeholder="Last Name" />
+	</div>
+
+	<div>
+		<input type="text" name="email" placeholder="Your Email" class="email" />
+	</div>
+
+	<div>
+		<input type="text" name="email_confirmation" placeholder="Re-enter Email" class="email" />
+	</div>
+
+	<div>
+		<input type="password" name="password" placeholder="New Password" class="password">
+	</div>
+
+	<div class="birthday">
+		<div>Birthday</div>
+		<select>
+			<option value="0">Month</option>
+			<option value="1">Jan</option>
+			<option value="2">Feb</option>
+			<option value="3">Mar</option>
+			<option value="4">Apr</option>
+			<option value="5">May</option>
+			<option value="6">Jun</option>
+			<option value="7">Jul</option>
+			<option value="8">Aug</option>
+			<option value="9">Sep</option>
+			<option value="10">Oct</option>
+			<option value="11">Nov</option>
+			<option value="12">Dec</option>
+		</select>
+		<select>
+			<option>Day</option>
+		</select>
+		<select>
+			<option>Year</option>
+		</select>
+	</div>
+
+	<div class="sex">
+		<input type="radio" name="sex" value="1" id="female">
+		<label for="female">Female</label>
+		<input type="radio" name="sex" value="1" id="male">
+		<label for="male">Male</label>
+	</div>
+
+	<p>By clicking Sign Up, you agree to our <a href="/legal/terms" target="_blank">Terms</a> and that you have read our <a href="/about/privacy" target="_blank">Data Use Policy</a>, including our <a href="/help/cookies" target="_blank">Cookie Use</a>.</p>
+
+	<button type="submit" name="websubmit">Sign Up</button>
+
+</form>
+
+</body>
+</html>
