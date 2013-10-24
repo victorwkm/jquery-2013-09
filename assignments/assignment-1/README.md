@@ -7,7 +7,7 @@ If you have any issues, please contact me at victorwkm@gmail.com
 
 How to submit
 --------------------------
-Please email your assignment with your name (both Chinese and English) to me by next Wednesday (2013/10/09).
+Please email your assignment with your name (both Chinese and English) to me by next Wednesday (2013/10/30).
 
 Overall requirements
 --------------------------------
