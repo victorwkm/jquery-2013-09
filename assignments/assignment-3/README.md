@@ -16,6 +16,11 @@ Overall requirements
 Tasks - jQuery 
 ----------------------------------------------------------------
 
+Adding Keyboard Navigation
+http://jqueryfordesigners.com/adding-keyboard-navigation/
+
+OR
+
 jQuery Traversing
 ------------------------
 
