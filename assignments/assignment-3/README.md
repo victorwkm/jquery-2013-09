@@ -7,7 +7,7 @@ If you have any issues, please contact me at victorwkm@gmail.com
 
 How to submit
 --------------------------
-Please email your assignment with you name (both Chinese and English) to me by next Wednesday (2013/03/27).
+Please email your assignment with you name (both Chinese and English) to me by next Wednesday (2013/10/30).
 
 Overall requirements
 --------------------------------
@@ -15,6 +15,11 @@ Overall requirements
 
 Tasks - jQuery 
 ----------------------------------------------------------------
+
+Adding Keyboard Navigation
+http://jqueryfordesigners.com/adding-keyboard-navigation/
+
+OR
 
 jQuery Traversing
 ------------------------
@@ -33,7 +38,8 @@ e.	Select the first list item in the #slideshow element; add the class "current"
 
 
 jQuery Manipulating
-------------------------------a.	Add five new list items to the end of the unordered list #myList. Hint: for (var i = 0; i<5; i++) { ... }
+------------------------------
+a.	Add five new list items to the end of the unordered list #myList. Hint: for (var i = 0; i<5; i++) { ... }
 
 b.	Remove the odd list items
 
@@ -43,7 +49,9 @@ d.	Add another option to the select element; give the option the value "Wednesda
 
 e.	Add a new div.module to the page after the last one; put a copy of one of the existing images inside of it.
 
-Create an Input Hint--------------------------------
+
+Create an Input Hint
+--------------------------------
 a. Set the value of the search input to the text of the label element
 
 b. Add a class of "hint" to the search input
@@ -52,4 +60,4 @@ c. Remove the label element
 
 d. Bind a focus event to the search input that removes the hint text and the "hint" class
 
-e. Bind a blur event to the search input that restores the hint text and "hint" class if no search text was entered
+e. Bind a blur event to the search input that restores the hint text and "hint" class if no search text was entered
